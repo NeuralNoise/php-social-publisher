@@ -11,7 +11,10 @@
 								);
 
 	$facebookConfiguration = array(
-								// TODO
+								'appId'		=> 'FACEBOOK_APP_ID',
+					            'secret'	=> 'FACEBOOK_SECRET',
+					            'cookie'	=> false,
+					            'pageId'	=> 'FACEBOOK_PAGE_ID'
 								);
 
 	$engine->addPublisher('twitter', $twitterConfiguration);
