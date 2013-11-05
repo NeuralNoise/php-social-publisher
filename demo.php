@@ -20,6 +20,6 @@
 	try{
 		$engine->publish('My test status !');
 	}catch(Excepiton $e){
-		echo 'Success !';
+		echo 'Error: ' . $e->getMessage();
 	}
 ?>
